@@ -39,8 +39,8 @@ void display(struct Sparse s)
         {
             if (i == s.ele[k].i && j == s.ele[k].j)
                 printf("%d ", s.ele[k++].x);
-            else
-                printf("0 ");
+         else
+             continue;
         }
         printf("\n");
     }
